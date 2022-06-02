@@ -21,5 +21,5 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
           ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
           AZURE_STORAGE_ACCOUNT: copstoragemdjs
-          PULUMI_BACKEND_URL: azblob://copstoragemdjs.blob.core.windows.net/pulumibackend
+          PULUMI_BACKEND_URL: azblob://pulumibackend
           AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
