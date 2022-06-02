@@ -24,3 +24,4 @@ jobs:
           AZURE_STORAGE_ACCOUNT: copstoragemdjs
           PULUMI_BACKEND_URL: azblob://pulumibackend
           AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+          PULUMI_CONFIG_PASSPHRASE: NA
